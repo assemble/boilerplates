@@ -12,31 +12,26 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json'),
-
-    // Project paths and files.
-    bootstrap: grunt.file.readJSON('test/bootstrap.json'),
+    pkg      : grunt.file.readJSON('package.json'),
+    bootstrap: grunt.file.readYAML('assets/bootstrap.yml'),
 
 
     less: {
-      // Global task options. Options can also be set for each target.
       options: {
         paths: ['<%= bootstrap.base %>'],
         require: '<%= bootstrap.less.globals %>',
-        bootstrap: './test/less/bootstrap',
+        bootstrap: 'assets/less',
         concat: true
       },
-
-      // Files object, a more compact way of building the same thing as above.
       bundles: {
         files: {
-          'test/css/bundle/bootstrap.css': ['<%= bootstrap.lib %>'],
-          'test/css/bundle/core.css':      ['<%= bootstrap.less.core %>'],
-          'test/css/bundle/common.css':    ['<%= bootstrap.less.common %>'],
-          'test/css/bundle/nav.css':       ['<%= bootstrap.less.nav %>'],
-          'test/css/bundle/zindex.css':    ['<%= bootstrap.less.zindex %>'],
-          'test/css/bundle/misc.css':      ['<%= bootstrap.less.misc %>'],
-          'test/css/bundle/util.css':      ['<%= bootstrap.less.util %>']
+          'assets/css/bundle/bootstrap.css': ['<%= bootstrap.lib %>'],
+          'assets/css/bundle/core.css':      ['<%= bootstrap.less.core %>'],
+          'assets/css/bundle/common.css':    ['<%= bootstrap.less.common %>'],
+          'assets/css/bundle/nav.css':       ['<%= bootstrap.less.nav %>'],
+          'assets/css/bundle/zindex.css':    ['<%= bootstrap.less.zindex %>'],
+          'assets/css/bundle/misc.css':      ['<%= bootstrap.less.misc %>'],
+          'assets/css/bundle/util.css':      ['<%= bootstrap.less.util %>']
         }
       },
 
@@ -44,11 +39,11 @@ module.exports = function(grunt) {
       individual: {
         options: {concat: false },
         src:  '<%= bootstrap.less.all %>',
-        dest: 'test/css/individual'
+        dest: 'assets/css/'
       }
     },
 
-    // Included for running basic tests.
+    // Build templates.
     assemble: {
       options: {
         flatten: true,
@@ -66,30 +61,29 @@ module.exports = function(grunt) {
           'test/actual/': ['test/files/dates.hbs']
         }
       }
-    },
-    clean: {
-      // Clear out example files before creating new ones.
-      tests: { src: 'test/css' }
-    },
-    watch: {
-      project: {
-        files: ['test/**/*.{less,json}'],
-        tasks: ['less', 'assemble:less']
-      }
     }
+    // clean: {
+    //   // Clear out example files before creating new ones.
+    //   tests: { src: 'assets/css' }
+    // },
+    // watch: {
+    //   project: {
+    //     files: ['test/**/*.{less,json}'],
+    //     tasks: ['less', 'assemble:less']
+    //   }
+    // }
   });
 
- 
   // Load npm plugins to provide necessary tasks.
   grunt.loadNpmTasks('assemble');
   grunt.loadNpmTasks('assemble-less');
-  grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-watch');
+  // grunt.loadNpmTasks('grunt-contrib-clean');
+  // grunt.loadNpmTasks('grunt-contrib-watch');
 
 
   // Default tasks to be run.
   grunt.registerTask('default', [
-    'assemble',
+    // 'assemble',
     'less'
   ]);
 

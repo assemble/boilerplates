@@ -1,0 +1,137 @@
+name: Bootstrap
+version: "3.0.0"
+notes: >
+  Example for using JSON with underscore templates to create bundles from Bootstrap's
+  LESS components. The version, name and notes properties are also included as examples
+  in case you have a reason to do versioning.
+
+# Bootstrap
+lib: <%= bootstrap.base %>/bootstrap.less
+
+# All Bootstrap Components
+less:
+  variables           : <%= bootstrap.base %>/variables.less
+  mixins              : <%= bootstrap.base %>/mixins.less
+  normalize           : <%= bootstrap.base %>/normalize.less
+  print               : <%= bootstrap.base %>/print.less
+  accordion           : <%= bootstrap.base %>/accordion.less
+  alerts              : <%= bootstrap.base %>/alerts.less
+  badges              : <%= bootstrap.base %>/badges.less
+  breadcrumbs         : <%= bootstrap.base %>/breadcrumbs.less
+  button_groups       : <%= bootstrap.base %>/button-groups.less
+  buttons             : <%= bootstrap.base %>/buttons.less
+  carousel            : <%= bootstrap.base %>/carousel.less
+  close               : <%= bootstrap.base %>/close.less
+  code                : <%= bootstrap.base %>/code.less
+  component_animations: <%= bootstrap.base %>/component-animations.less
+  dropdowns           : <%= bootstrap.base %>/dropdowns.less
+  forms               : <%= bootstrap.base %>/forms.less
+  glyphicons          : <%= bootstrap.base %>/glyphicons.less
+  grid                : <%= bootstrap.base %>/grid.less
+  jumbotron           : <%= bootstrap.base %>/jumbotron.less
+  panels              : <%= bootstrap.base %>/panels.less
+  labels              : <%= bootstrap.base %>/labels.less
+  media               : <%= bootstrap.base %>/media.less
+  modals              : <%= bootstrap.base %>/modals.less
+  navbar              : <%= bootstrap.base %>/navbar.less
+  navs                : <%= bootstrap.base %>/navs.less
+  list_group          : <%= bootstrap.base %>/list-group.less
+  pager               : <%= bootstrap.base %>/pager.less
+  pagination          : <%= bootstrap.base %>/pagination.less
+  popovers            : <%= bootstrap.base %>/popovers.less
+  progress_bars       : <%= bootstrap.base %>/progress-bars.less
+  scaffolding         : <%= bootstrap.base %>/scaffolding.less
+  tables              : <%= bootstrap.base %>/tables.less
+  thumbnails          : <%= bootstrap.base %>/thumbnails.less
+  tooltip             : <%= bootstrap.base %>/tooltip.less
+  type                : <%= bootstrap.base %>/type.less
+  wells               : <%= bootstrap.base %>/wells.less
+  utilities           : <%= bootstrap.base %>/utilities.less
+  responsive_utilities: <%= bootstrap.base %>/responsive-utilities.less
+
+  # Globally required
+  globals:
+  - <%= bootstrap.less.variables %>
+  - <%= bootstrap.less.mixins %>
+  - <%= bootstrap.less.utilities %>
+
+  # Components: Core
+  core:
+  - <%= bootstrap.less.normalize %>
+  - <%= bootstrap.less.print %>
+  - <%= bootstrap.less.scaffolding %>
+  - <%= bootstrap.less.grid %>
+  - <%= bootstrap.less.type %>
+  - <%= bootstrap.less.code %>
+  - <%= bootstrap.less.forms %>
+  - <%= bootstrap.less.tables %>
+  - <%= bootstrap.less.buttons %>
+  - <%= bootstrap.less.util %>
+
+  # Components: Common
+  common:
+  - <%= bootstrap.less.component_animations %>
+  - <%= bootstrap.less.glyphicons %>
+  - <%= bootstrap.less.dropdowns %>
+  - <%= bootstrap.less.wells %>
+  - <%= bootstrap.less.panels %>
+  - <%= bootstrap.less.close %>
+
+  # Components: Nav
+  nav:
+  - <%= bootstrap.less.navs %>
+  - <%= bootstrap.less.list_group %>
+  - <%= bootstrap.less.navbar %>
+  - <%= bootstrap.less.button_groups %>
+  - <%= bootstrap.less.breadcrumbs %>
+  - <%= bootstrap.less.pagination %>
+  - <%= bootstrap.less.pager %>
+
+  # Components: z-index
+  zindex:
+  - <%= bootstrap.less.modals %>
+  - <%= bootstrap.less.tooltip %>
+  - <%= bootstrap.less.popovers %>
+
+  # Components: Misc
+  misc:
+  - <%= bootstrap.less.alerts %>
+  - <%= bootstrap.less.thumbnails %>
+  - <%= bootstrap.less.media %>
+  - <%= bootstrap.less.badges %>
+  - <%= bootstrap.less.labels %>
+  - <%= bootstrap.less.progress_bars %>
+  - <%= bootstrap.less.accordion %>
+  - <%= bootstrap.less.carousel %>
+  - <%= bootstrap.less.jumbotron %>
+
+  # Components: Utilities
+  util:
+  - <%= bootstrap.less.utilities %>
+  - <%= bootstrap.less.responsive_utilities %>
+
+
+  # Everything
+  all:
+  - <%= bootstrap.less.core %>
+  - <%= bootstrap.less.common %>
+  - <%= bootstrap.less.nav %>
+  - <%= bootstrap.less.zindex %>
+  - <%= bootstrap.less.misc %>
+  - <%= bootstrap.less.util %>
+
+  # Selected components
+  custom_bundle:
+  - <%= bootstrap.less.basics %>
+  - <%= bootstrap.less.normalize %>
+  - <%= bootstrap.less.scaffolding %>
+  - <%= bootstrap.less.grid %>
+  - <%= bootstrap.less.type %>
+  - <%= bootstrap.less.util %>
+
+
+# Files to ignore
+ignore:
+- bootstrap.less
+- variables.less
+- mixins.less
