@@ -7,3 +7,4 @@ permalink:    pretty
 
 # Server
 source:       ./docs
+destination:  ./
