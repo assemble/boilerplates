@@ -18,27 +18,27 @@ module.exports = function(grunt) {
 
     less: {
       options: {
-        paths: ['<%= bootstrap.base %>'],
-        require: '<%= bootstrap.less.globals %>',
-        bootstrap: 'assets/less',
+        paths:  ['<%= bootstrap.less %>'],
+        require: '<%= bootstrap.bundle.globals %>',
+        bootstrap: 'assets',
         concat: true
       },
       bundles: {
         files: {
-          'assets/css/bundle/bootstrap.css': ['<%= bootstrap.lib %>'],
-          'assets/css/bundle/core.css':      ['<%= bootstrap.less.core %>'],
-          'assets/css/bundle/common.css':    ['<%= bootstrap.less.common %>'],
-          'assets/css/bundle/nav.css':       ['<%= bootstrap.less.nav %>'],
-          'assets/css/bundle/zindex.css':    ['<%= bootstrap.less.zindex %>'],
-          'assets/css/bundle/misc.css':      ['<%= bootstrap.less.misc %>'],
-          'assets/css/bundle/util.css':      ['<%= bootstrap.less.util %>']
+          'assets/css/bundle/bootstrap.css': ['<%= bootstrap.bundle.all %>'],
+          'assets/css/bundle/core.css':      ['<%= bootstrap.bundle.core %>'],
+          'assets/css/bundle/common.css':    ['<%= bootstrap.bundle.common %>'],
+          'assets/css/bundle/nav.css':       ['<%= bootstrap.bundle.nav %>'],
+          'assets/css/bundle/zindex.css':    ['<%= bootstrap.bundle.zindex %>'],
+          'assets/css/bundle/misc.css':      ['<%= bootstrap.bundle.misc %>'],
+          'assets/css/bundle/util.css':      ['<%= bootstrap.components.utilities %>']
         }
       },
 
       // Compile all targeted LESS files individually
       individual: {
         options: {concat: false },
-        src:  '<%= bootstrap.less.all %>',
+        src:  '<%= bootstrap.bundle.all %>',
         dest: 'assets/css/'
       }
     },
