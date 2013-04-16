@@ -5,4 +5,5 @@ pygments:     true
 # Permalinks
 permalink:    pretty
 
-
+source:       ./docs
+destination:  ./_gh_pages
