@@ -1,3 +1,5 @@
+title: Assemble Example
+
 # Dependencies
 markdown:     rdiscount
 pygments:     true
@@ -5,5 +7,6 @@ pygments:     true
 # Permalinks
 permalink:    pretty
 
-source:       ./docs
-destination:  ./_gh_pages
+#build config
+server: true
+auto: true
