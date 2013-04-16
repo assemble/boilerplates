@@ -5,6 +5,4 @@ pygments:     true
 # Permalinks
 permalink:    pretty
 
-# Server
-source:       ./docs
-destination:  ./
+
