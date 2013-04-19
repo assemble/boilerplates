@@ -1,4 +1,4 @@
-# [assemble-examples](http://github.com/assemble/assemble-examples) [![Build Status](https://travis-ci.org/assemble/assemble-examples.png)](https://travis-ci.org/assemble/assemble-examples)
+# assemble-examples
 
 > A collection of example projects for working with [Assemble](https://github.com/assemble/)
 
