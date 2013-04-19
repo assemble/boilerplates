@@ -1,4 +1,4 @@
-# assemble-examples
+# [assemble-examples](http://github.com/assemble/assemble-examples) [![Build Status](https://travis-ci.org/assemble/assemble-examples.png)](https://travis-ci.org/assemble/assemble-examples)
 
 > A collection of example projects for working with [Assemble](https://github.com/assemble/)
 
@@ -15,7 +15,7 @@ If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out th
 
 
 
-### Examples
+## Examples
 
 #### [assemble-examples-basic](http://github.com/assemble/assemble-examples-basic) [![Build Status](https://travis-ci.org/assemble/assemble-examples-basic.png)](https://travis-ci.org/assemble/assemble-examples-basic)
 
