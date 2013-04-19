@@ -5,10 +5,17 @@
 
 ## Getting Started
 
-This repo provides an overview of some example projects for using Assemble. To get started just visit one of the projects, download the example, `npm install` to install each of the project's dependencies, and then run `grunt assemble` to build the project.  
+This repo provides an overview of some example projects for using Assemble. To get started:
+ * Visit one of the example projects
+* **[Download this project][download]** and unzip it into a new folder.  
+* In the project folder, run `npm install` to install [Assemble][assemble], [Grunt](http://gruntjs.com/) and any other dependencies.
+* Once the dependencies are installed you may run `grunt assemble` to build the example project.
+
+If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile][gruntfile], as well as install and use Grunt plugins. 
 
 
-## Examples
+
+### Examples
 
 #### [assemble-examples-basic](http://github.com/assemble/assemble-examples-basic) [![Build Status](https://travis-ci.org/assemble/assemble-examples-basic.png)](https://travis-ci.org/assemble/assemble-examples-basic)
 
@@ -19,6 +26,7 @@ This repo provides an overview of some example projects for using Assemble. To g
 * Partials
 * YAML Front-matter
 * Markdown content
+
 
 
 ## Release History
