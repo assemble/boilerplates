@@ -19,7 +19,9 @@ If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out th
 
 #### [assemble-examples-basic](http://github.com/assemble/assemble-examples-basic) [![Build Status](https://travis-ci.org/assemble/assemble-examples-basic.png)](https://travis-ci.org/assemble/assemble-examples-basic)
 
-> A basic example that shows how to construct a very basic site using:
+> Use Assemble to construct a basic site.
+
+Demonstrates:
 
 * Layouts
 * Pages
@@ -28,9 +30,21 @@ If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out th
 * Markdown content
 
 
+#### [assemble-examples-readme](http://github.com/assemble/assemble-examples-readme) [![Build Status](https://travis-ci.org/assemble/assemble-examples-readme.png)](https://travis-ci.org/assemble/assemble-examples-readme)
+
+> Use Assemble to generate a GitHub README in markdown format
+
+Demonstrates:
+
+* Templates
+* Handlebars Helpers
+* YAML data
+* Markdown content
+
 
 ## Release History
 
+ * 2013-04-19   v0.1.1   add assemble-examples-readme 
  * 2013-04-19   v0.1.0   initial release
 
 
