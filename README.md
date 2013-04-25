@@ -6,7 +6,8 @@
 ## Getting Started
 
 This repo provides an overview of some example projects for using Assemble. To get started:
- * Visit one of the example projects
+
+* Visit one of the example projects
 * **[Download this project][download]** and unzip it into a new folder.  
 * In the project folder, run `npm install` to install [Assemble][assemble], [Grunt](http://gruntjs.com/) and any other dependencies.
 * Once the dependencies are installed you may run `grunt assemble` to build the example project.
@@ -16,12 +17,11 @@ If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out th
 
 
 ## Examples
+Most of the example projects are pretty basic, and we try to incorporate examples for both templates and data in each project but you can get away with fewer files and less abstraction. 
 
 #### [assemble-examples-basic](http://github.com/assemble/assemble-examples-basic) [![Build Status](https://travis-ci.org/assemble/assemble-examples-basic.png)](https://travis-ci.org/assemble/assemble-examples-basic)
 
-> Use Assemble to construct a basic site.
-
-Demonstrates:
+> Assemble a basic site using:
 
 * Layouts
 * Pages
@@ -32,33 +32,35 @@ Demonstrates:
 
 #### [assemble-examples-readme](http://github.com/assemble/assemble-examples-readme) [![Build Status](https://travis-ci.org/assemble/assemble-examples-readme.png)](https://travis-ci.org/assemble/assemble-examples-readme)
 
-> Use Assemble to generate a GitHub README in markdown format
+> Assemble a GitHub README.md, with very basic:
 
-Demonstrates:
-
-* Templates
-* Handlebars Helpers
+* `README.hbs` template
+* Handlebars Helpers for changelog, authors and roadmap
 * YAML data
 * Markdown content
 
 
+
+#### [assemble-examples-sitemap](http://github.com/assemble/assemble-examples-sitemap) [![Build Status](https://travis-ci.org/assemble/assemble-examples-sitemap.png)](https://travis-ci.org/assemble/assemble-examples-sitemap)
+
+> Use Assemble to generate a Sitemap.xml from:
+
+* `sitemap.hbs` template
+* Example data
+
+
+
 ## Release History
 
+ * 2013-04-24   v0.1.2   add assemble-examples-sitemap 
  * 2013-04-19   v0.1.1   add assemble-examples-readme 
  * 2013-04-19   v0.1.0   initial release
 
 
  
-
-<!-- assemble links -->
-
 [assemble]: https://github.com/assemble/assemble/
 [wiki]: https://github.com/assemble/assemble/wiki
 [download]: https://github.com/assemble/assemble-examples-basic/archive/master.zip
-
-
-<!-- grunt links -->
-
 [gruntfile]: http://gruntjs.com/sample-gruntfile
 [configuring tasks]: http://gruntjs.com/configuring-tasks
 [tasks-and-targets]: http://gruntjs.com/configuring-tasks#task-configuration-and-targets
