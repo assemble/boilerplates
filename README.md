@@ -1,4 +1,4 @@
-# assemble-examples
+# boilerplates
 
 > A collection of example projects for working with [Assemble](https://github.com/assemble/)
 
