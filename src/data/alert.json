@@ -1,5 +1,0 @@
-{
-  "strong": "External data worked!",
-  "modifier": "alert-info",
-  "message": "You can find the data for this alert in the './src/data/` dir."
-}

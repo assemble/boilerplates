@@ -1,14 +1,12 @@
 {
   "name": "boilerplates",
   "description": "Boilerplates for Assemble.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "homepage": "https://github.com/assemble/boilerplates",
-  "author": [
-    {
-      "name": "Jon Schlinkert",
-      "url": "https://github.com/jonschlinkert"
-    }
-  ],
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/assemble/boilerplates.git"
@@ -28,7 +26,7 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "assemble-internal": "~0.2.0"
+    "grunt-readme": "~0.2.0"
   },
   "keywords": [
     "assemble boilerplate",

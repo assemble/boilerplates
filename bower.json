@@ -1,0 +1,12 @@
+{
+  "name": "boilerplates",
+  "version": "0.2.0",
+  "main": [
+    "./Gruntfile.js"
+  ],
+  "ignore": ["tmp", "src", "dist", "_gh_pages", "vendor"],
+  "dependencies": {
+    "bootstrap": "~3.0.0-rc1",
+    "highlightjs": "~7.3.0"
+  }
+}
