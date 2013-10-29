@@ -1,12 +1,12 @@
 {
   "name": "boilerplates",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": [
-    "./Gruntfile.js"
+    "Gruntfile.js"
   ],
-  "ignore": ["tmp", "src", "dist", "_gh_pages", "vendor"],
-  "dependencies": {
-    "bootstrap": "~3.0.0-rc1",
-    "highlightjs": "~7.3.0"
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-readme": "~0.2.0",
+    "grunt-sync-pkg": "~0.1.1"
   }
 }

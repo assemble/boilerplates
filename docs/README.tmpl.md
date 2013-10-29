@@ -4,14 +4,20 @@
 
 This repo is based on [grunt-contrib](https://github.com/gruntjs/grunt-contrib/).
 
-# Overview
+## Overview
 This collection contains all of the boilerplates maintained by the Assemble core team. This list is made available as a convenience for first-time users who would like to explore what Assemble has to offer. After review, it is recommended that install the boilerplates you wish to use individually.
 
-A listing of each boilerplate and the current version included in this package is listed below.
+## Boilerplates
 {% _.each(repos, function(boilerplate) { %}{% if(/\bboilerplate\b/g.test(boilerplate.name)) { %}
 
-## [{%= boilerplate.name %}]({%= boilerplate.url %}) [![NPM version](https://badge.fury.io/js/{%= boilerplate.name %}.png)](http://badge.fury.io/js/{%= boilerplate.name %})
+### [{%= boilerplate.name %}]({%= boilerplate.url %}) [![NPM version](https://badge.fury.io/js/{%= boilerplate.name %}.png)](http://badge.fury.io/js/{%= boilerplate.name %})
 > {%= boilerplate.description %} {% } %} {% }); %}
+
+## Generators
+{% _.each(repos, function(generator) { %}{% if(/\bgenerator|init\b/g.test(generator.name)) { %}
+
+### [{%= generator.name %}]({%= generator.url %}) [![NPM version](https://badge.fury.io/js/{%= generator.name %}.png)](http://badge.fury.io/js/{%= generator.name %})
+> {%= generator.description %} {% } %} {% }); %}
 
 
 ## Contributing

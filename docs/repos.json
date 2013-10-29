@@ -2,273 +2,651 @@
   "repos": [
     {
       "name": "assemble",
+      "forks": 29,
+      "watchers": 463,
+      "fullname": "assemble/assemble",
       "description": "Static site generator for Grunt.js, Yeoman and Node.js. Used by H5BP/Effeckt, Topcoat, Web Experience Toolkit, and hundreds of other projects to build sites, themes, components, documentation, blogs and gh-pages.",
-      "url": "https://github.com/assemble/assemble"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/assemble.git",
+      "clone_url": "https://github.com/assemble/assemble.git",
+      "url": "https://github.com/assemble/assemble",
+      "download": "https://github.com/assemble/assemble/archive/master.zip"
     },
     {
       "name": "assemble-contrib-contextual",
+      "forks": 1,
+      "watchers": 2,
+      "fullname": "assemble/assemble-contrib-contextual",
       "description": "Generates a JSON file containing the context of each page. Basic plugin to help see what's happening in the build.",
-      "url": "https://github.com/assemble/assemble-contrib-contextual"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/assemble-contrib-contextual.git",
+      "clone_url": "https://github.com/assemble/assemble-contrib-contextual.git",
+      "url": "https://github.com/assemble/assemble-contrib-contextual",
+      "download": "https://github.com/assemble/assemble-contrib-contextual/archive/master.zip"
     },
     {
       "name": "assemble-contrib-rss",
+      "forks": 0,
+      "watchers": 2,
+      "fullname": "assemble/assemble-contrib-rss",
       "description": "Plugin for creating RSS feeds with Assemble, the static site generator for Node.js, Grunt.js and Yeoman. ",
-      "url": "https://github.com/assemble/assemble-contrib-rss"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/assemble-contrib-rss.git",
+      "clone_url": "https://github.com/assemble/assemble-contrib-rss.git",
+      "url": "https://github.com/assemble/assemble-contrib-rss",
+      "download": "https://github.com/assemble/assemble-contrib-rss/archive/master.zip"
     },
     {
       "name": "assemble-contrib-sitemap",
+      "forks": 1,
+      "watchers": 2,
+      "fullname": "assemble/assemble-contrib-sitemap",
       "description": "Sitemap generator plugin for Assemble",
-      "url": "https://github.com/assemble/assemble-contrib-sitemap"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/assemble-contrib-sitemap.git",
+      "clone_url": "https://github.com/assemble/assemble-contrib-sitemap.git",
+      "url": "https://github.com/assemble/assemble-contrib-sitemap",
+      "download": "https://github.com/assemble/assemble-contrib-sitemap/archive/master.zip"
     },
     {
       "name": "assemble-docs",
+      "forks": 9,
+      "watchers": 5,
+      "fullname": "assemble/assemble-docs",
       "description": "Documentation for Assemble and related projects.",
-      "url": "https://github.com/assemble/assemble-docs"
+      "language": "CSS",
+      "git_url": "git://github.com/assemble/assemble-docs.git",
+      "clone_url": "https://github.com/assemble/assemble-docs.git",
+      "url": "https://github.com/assemble/assemble-docs",
+      "download": "https://github.com/assemble/assemble-docs/archive/master.zip"
     },
     {
       "name": "assemble-front-matter",
+      "forks": 3,
+      "watchers": 4,
+      "fullname": "assemble/assemble-front-matter",
       "description": "Utilities for extracting Front Matter from source files.",
-      "url": "https://github.com/assemble/assemble-front-matter"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/assemble-front-matter.git",
+      "clone_url": "https://github.com/assemble/assemble-front-matter.git",
+      "url": "https://github.com/assemble/assemble-front-matter",
+      "download": "https://github.com/assemble/assemble-front-matter/archive/master.zip"
     },
     {
       "name": "assemble-handlebars",
+      "forks": 6,
+      "watchers": 0,
+      "fullname": "assemble/assemble-handlebars",
       "description": "Assemble engine plugin for Handlebars templates",
-      "url": "https://github.com/assemble/assemble-handlebars"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/assemble-handlebars.git",
+      "clone_url": "https://github.com/assemble/assemble-handlebars.git",
+      "url": "https://github.com/assemble/assemble-handlebars",
+      "download": "https://github.com/assemble/assemble-handlebars/archive/master.zip"
     },
     {
       "name": "assemble-internal",
+      "forks": 0,
+      "watchers": 1,
+      "fullname": "assemble/assemble-internal",
       "description": "Internal tools and tasks for managing Assemble projects.",
-      "url": "https://github.com/assemble/assemble-internal"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/assemble-internal.git",
+      "clone_url": "https://github.com/assemble/assemble-internal.git",
+      "url": "https://github.com/assemble/assemble-internal",
+      "download": "https://github.com/assemble/assemble-internal/archive/master.zip"
     },
     {
       "name": "assemble-less",
+      "forks": 9,
+      "watchers": 31,
+      "fullname": "assemble/assemble-less",
       "description": "Grunt task for compiling LESS to CSS. ",
-      "url": "https://github.com/assemble/assemble-less"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/assemble-less.git",
+      "clone_url": "https://github.com/assemble/assemble-less.git",
+      "url": "https://github.com/assemble/assemble-less",
+      "download": "https://github.com/assemble/assemble-less/archive/master.zip"
     },
     {
       "name": "assemble-liquid",
+      "forks": 3,
+      "watchers": 3,
+      "fullname": "assemble/assemble-liquid",
       "description": "Assemble engine plugin for LiquidNode templates http://assemble.io",
-      "url": "https://github.com/assemble/assemble-liquid"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/assemble-liquid.git",
+      "clone_url": "https://github.com/assemble/assemble-liquid.git",
+      "url": "https://github.com/assemble/assemble-liquid",
+      "download": "https://github.com/assemble/assemble-liquid/archive/master.zip"
     },
     {
       "name": "assemble-manifest",
+      "forks": 2,
+      "watchers": 5,
+      "fullname": "assemble/assemble-manifest",
       "description": "Proof of concept to generate JSON and/or YAML manifest files from given source files or directories.",
-      "url": "https://github.com/assemble/assemble-manifest"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/assemble-manifest.git",
+      "clone_url": "https://github.com/assemble/assemble-manifest.git",
+      "url": "https://github.com/assemble/assemble-manifest",
+      "download": "https://github.com/assemble/assemble-manifest/archive/master.zip"
     },
     {
       "name": "assemble-package-manager",
+      "forks": 1,
+      "watchers": 3,
+      "fullname": "assemble/assemble-package-manager",
       "description": "Provides utilities for loading packages to work with their file configurations",
-      "url": "https://github.com/assemble/assemble-package-manager"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/assemble-package-manager.git",
+      "clone_url": "https://github.com/assemble/assemble-package-manager.git",
+      "url": "https://github.com/assemble/assemble-package-manager",
+      "download": "https://github.com/assemble/assemble-package-manager/archive/master.zip"
     },
     {
       "name": "assemble-swig",
+      "forks": 3,
+      "watchers": 4,
+      "fullname": "assemble/assemble-swig",
       "description": "Assemble engine plugin for swig templates.",
-      "url": "https://github.com/assemble/assemble-swig"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/assemble-swig.git",
+      "clone_url": "https://github.com/assemble/assemble-swig.git",
+      "url": "https://github.com/assemble/assemble-swig",
+      "download": "https://github.com/assemble/assemble-swig/archive/master.zip"
     },
     {
       "name": "assemble-utils",
+      "forks": 1,
+      "watchers": 1,
+      "fullname": "assemble/assemble-utils",
       "description": "Assemble utilities",
-      "url": "https://github.com/assemble/assemble-utils"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/assemble-utils.git",
+      "clone_url": "https://github.com/assemble/assemble-utils.git",
+      "url": "https://github.com/assemble/assemble-utils",
+      "download": "https://github.com/assemble/assemble-utils/archive/master.zip"
     },
     {
       "name": "assemble-yaml",
+      "forks": 3,
+      "watchers": 4,
+      "fullname": "assemble/assemble-yaml",
       "description": "Utility for extracting and converting YAML Front Matter from files.",
-      "url": "https://github.com/assemble/assemble-yaml"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/assemble-yaml.git",
+      "clone_url": "https://github.com/assemble/assemble-yaml.git",
+      "url": "https://github.com/assemble/assemble-yaml",
+      "download": "https://github.com/assemble/assemble-yaml/archive/master.zip"
     },
     {
       "name": "boilerplate-bootstrap",
+      "forks": 5,
+      "watchers": 13,
+      "fullname": "assemble/boilerplate-bootstrap",
       "description": "Build Bootstrap with Assemble instead of Jekyll. ",
-      "url": "https://github.com/assemble/boilerplate-bootstrap"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/boilerplate-bootstrap.git",
+      "clone_url": "https://github.com/assemble/boilerplate-bootstrap.git",
+      "url": "https://github.com/assemble/boilerplate-bootstrap",
+      "download": "https://github.com/assemble/boilerplate-bootstrap/archive/master.zip"
     },
     {
       "name": "boilerplate-gist-blog",
+      "forks": 2,
+      "watchers": 5,
+      "fullname": "assemble/boilerplate-gist-blog",
       "description": "Use Assemble to create a blog from GitHub Gists.",
-      "url": "https://github.com/assemble/boilerplate-gist-blog"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/boilerplate-gist-blog.git",
+      "clone_url": "https://github.com/assemble/boilerplate-gist-blog.git",
+      "url": "https://github.com/assemble/boilerplate-gist-blog",
+      "download": "https://github.com/assemble/boilerplate-gist-blog/archive/master.zip"
     },
     {
       "name": "boilerplate-h5bp",
+      "forks": 1,
+      "watchers": 2,
+      "fullname": "assemble/boilerplate-h5bp",
       "description": "Assemble + HTML5 Boilerplate. ",
-      "url": "https://github.com/assemble/boilerplate-h5bp"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/boilerplate-h5bp.git",
+      "clone_url": "https://github.com/assemble/boilerplate-h5bp.git",
+      "url": "https://github.com/assemble/boilerplate-h5bp",
+      "download": "https://github.com/assemble/boilerplate-h5bp/archive/master.zip"
     },
     {
       "name": "boilerplate-markdown",
+      "forks": 2,
+      "watchers": 5,
+      "fullname": "assemble/boilerplate-markdown",
       "description": "Use Assemble to generate HTML pages from markdown content. Useful for wikis, gh-pages, documentation and blogs or sites with markdown posts.",
-      "url": "https://github.com/assemble/boilerplate-markdown"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/boilerplate-markdown.git",
+      "clone_url": "https://github.com/assemble/boilerplate-markdown.git",
+      "url": "https://github.com/assemble/boilerplate-markdown",
+      "download": "https://github.com/assemble/boilerplate-markdown/archive/master.zip"
     },
     {
       "name": "boilerplate-site",
+      "forks": 12,
+      "watchers": 12,
+      "fullname": "assemble/boilerplate-site",
       "description": "Demonstrates how to use Assemble to build a site. Includes layouts, pages, partials, and markdown content.",
-      "url": "https://github.com/assemble/boilerplate-site"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/boilerplate-site.git",
+      "clone_url": "https://github.com/assemble/boilerplate-site.git",
+      "url": "https://github.com/assemble/boilerplate-site",
+      "download": "https://github.com/assemble/boilerplate-site/archive/master.zip"
     },
     {
       "name": "boilerplate-sitemap",
+      "forks": 1,
+      "watchers": 4,
+      "fullname": "assemble/boilerplate-sitemap",
       "description": "Generate a sitemap with Assemble.",
-      "url": "https://github.com/assemble/boilerplate-sitemap"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/boilerplate-sitemap.git",
+      "clone_url": "https://github.com/assemble/boilerplate-sitemap.git",
+      "url": "https://github.com/assemble/boilerplate-sitemap",
+      "download": "https://github.com/assemble/boilerplate-sitemap/archive/master.zip"
     },
     {
       "name": "boilerplate-swig",
+      "forks": 3,
+      "watchers": 4,
+      "fullname": "assemble/boilerplate-swig",
       "description": "Example of using swig templates with Assemble.",
-      "url": "https://github.com/assemble/boilerplate-swig"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/boilerplate-swig.git",
+      "clone_url": "https://github.com/assemble/boilerplate-swig.git",
+      "url": "https://github.com/assemble/boilerplate-swig",
+      "download": "https://github.com/assemble/boilerplate-swig/archive/master.zip"
     },
     {
       "name": "boilerplates",
+      "forks": 2,
+      "watchers": 19,
+      "fullname": "assemble/boilerplates",
       "description": "A bunch of example projects to help you learn how to use Assemble.",
-      "url": "https://github.com/assemble/boilerplates"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/boilerplates.git",
+      "clone_url": "https://github.com/assemble/boilerplates.git",
+      "url": "https://github.com/assemble/boilerplates",
+      "download": "https://github.com/assemble/boilerplates/archive/master.zip"
     },
     {
       "name": "buttons",
+      "forks": 2,
+      "watchers": 9,
+      "fullname": "assemble/buttons",
       "description": "Sooo many buttons... is this really necessary?! In reality this project has little to do with buttons. It's an exercise in separation of concerns regarding structure, style, content and data.",
-      "url": "https://github.com/assemble/buttons"
+      "language": "CSS",
+      "git_url": "git://github.com/assemble/buttons.git",
+      "clone_url": "https://github.com/assemble/buttons.git",
+      "url": "https://github.com/assemble/buttons",
+      "download": "https://github.com/assemble/buttons/archive/master.zip"
     },
     {
       "name": "example-layout-helpers",
+      "forks": 1,
+      "watchers": 2,
+      "fullname": "assemble/example-layout-helpers",
       "description": "An example using the layout helpers",
-      "url": "https://github.com/assemble/example-layout-helpers"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/example-layout-helpers.git",
+      "clone_url": "https://github.com/assemble/example-layout-helpers.git",
+      "url": "https://github.com/assemble/example-layout-helpers",
+      "download": "https://github.com/assemble/example-layout-helpers/archive/master.zip"
     },
     {
       "name": "generator-assemble",
+      "forks": 6,
+      "watchers": 10,
+      "fullname": "assemble/generator-assemble",
       "description": "Yeoman generator for Assemble, the static site generator built on Grunt.js. Kickstart new Assemble projects in just a few seconds, including templates, data, layouts, and a theme.",
-      "url": "https://github.com/assemble/generator-assemble"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/generator-assemble.git",
+      "clone_url": "https://github.com/assemble/generator-assemble.git",
+      "url": "https://github.com/assemble/generator-assemble",
+      "download": "https://github.com/assemble/generator-assemble/archive/master.zip"
     },
     {
       "name": "glob-object",
+      "forks": 1,
+      "watchers": 2,
+      "fullname": "assemble/glob-object",
       "description": "Globbing for objects and properties.",
-      "url": "https://github.com/assemble/glob-object"
+      "language": null,
+      "git_url": "git://github.com/assemble/glob-object.git",
+      "clone_url": "https://github.com/assemble/glob-object.git",
+      "url": "https://github.com/assemble/glob-object",
+      "download": "https://github.com/assemble/glob-object/archive/master.zip"
     },
     {
       "name": "grunt-assemble",
+      "forks": 0,
+      "watchers": 0,
+      "fullname": "assemble/grunt-assemble",
       "description": "Moved to https://github.com/assemble/assemble",
-      "url": "https://github.com/assemble/grunt-assemble"
+      "language": null,
+      "git_url": "git://github.com/assemble/grunt-assemble.git",
+      "clone_url": "https://github.com/assemble/grunt-assemble.git",
+      "url": "https://github.com/assemble/grunt-assemble",
+      "download": "https://github.com/assemble/grunt-assemble/archive/master.zip"
     },
     {
       "name": "grunt-convert",
+      "forks": 4,
+      "watchers": 9,
+      "fullname": "assemble/grunt-convert",
       "description": "Grunt task to convert to or from JSON, YAML, XML, PLIST or CSV.",
-      "url": "https://github.com/assemble/grunt-convert"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/grunt-convert.git",
+      "clone_url": "https://github.com/assemble/grunt-convert.git",
+      "url": "https://github.com/assemble/grunt-convert",
+      "download": "https://github.com/assemble/grunt-convert/archive/master.zip"
     },
     {
       "name": "grunt-data",
+      "forks": 0,
+      "watchers": 0,
+      "fullname": "assemble/grunt-data",
       "description": "Grunt plugin for manipulating data.",
-      "url": "https://github.com/assemble/grunt-data"
+      "language": null,
+      "git_url": "git://github.com/assemble/grunt-data.git",
+      "clone_url": "https://github.com/assemble/grunt-data.git",
+      "url": "https://github.com/assemble/grunt-data",
+      "download": "https://github.com/assemble/grunt-data/archive/master.zip"
     },
     {
       "name": "grunt-firebase",
+      "forks": 2,
+      "watchers": 10,
+      "fullname": "assemble/grunt-firebase",
       "description": "Grunt task for updating firebase data.",
-      "url": "https://github.com/assemble/grunt-firebase"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/grunt-firebase.git",
+      "clone_url": "https://github.com/assemble/grunt-firebase.git",
+      "url": "https://github.com/assemble/grunt-firebase",
+      "download": "https://github.com/assemble/grunt-firebase/archive/master.zip"
     },
     {
       "name": "grunt-github-api",
+      "forks": 3,
+      "watchers": 8,
+      "fullname": "assemble/grunt-github-api",
       "description": "Grunt plugin used to query the Github API and save the returned JSON files locally.",
-      "url": "https://github.com/assemble/grunt-github-api"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/grunt-github-api.git",
+      "clone_url": "https://github.com/assemble/grunt-github-api.git",
+      "url": "https://github.com/assemble/grunt-github-api",
+      "download": "https://github.com/assemble/grunt-github-api/archive/master.zip"
     },
     {
       "name": "grunt-github-api-example",
+      "forks": 0,
+      "watchers": 1,
+      "fullname": "assemble/grunt-github-api-example",
       "description": "This is an example repository for:",
-      "url": "https://github.com/assemble/grunt-github-api-example"
+      "language": null,
+      "git_url": "git://github.com/assemble/grunt-github-api-example.git",
+      "clone_url": "https://github.com/assemble/grunt-github-api-example.git",
+      "url": "https://github.com/assemble/grunt-github-api-example",
+      "download": "https://github.com/assemble/grunt-github-api-example/archive/master.zip"
     },
     {
       "name": "grunt-init-assemble",
+      "forks": 5,
+      "watchers": 11,
+      "fullname": "assemble/grunt-init-assemble",
       "description": "Grunt init template for Assemble, the static site generator built on Grunt.js. Kickstart new Assemble projects in just a few seconds, including templates, data, layouts, and a theme.",
-      "url": "https://github.com/assemble/grunt-init-assemble"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/grunt-init-assemble.git",
+      "clone_url": "https://github.com/assemble/grunt-init-assemble.git",
+      "url": "https://github.com/assemble/grunt-init-assemble",
+      "download": "https://github.com/assemble/grunt-init-assemble/archive/master.zip"
     },
     {
       "name": "grunt-init-assemble-plugin",
+      "forks": 0,
+      "watchers": 0,
+      "fullname": "assemble/grunt-init-assemble-plugin",
       "description": "Generate a plugin for Assemble.",
-      "url": "https://github.com/assemble/grunt-init-assemble-plugin"
+      "language": null,
+      "git_url": "git://github.com/assemble/grunt-init-assemble-plugin.git",
+      "clone_url": "https://github.com/assemble/grunt-init-assemble-plugin.git",
+      "url": "https://github.com/assemble/grunt-init-assemble-plugin",
+      "download": "https://github.com/assemble/grunt-init-assemble-plugin/archive/master.zip"
     },
     {
       "name": "grunt-init-basic",
+      "forks": 0,
+      "watchers": 1,
+      "fullname": "assemble/grunt-init-basic",
       "description": "grunt-init template for a very basic project. includes nodeunit tests, jshint, watch, clean, and assemble for converting readme to a simple gh-pages index page.",
-      "url": "https://github.com/assemble/grunt-init-basic"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/grunt-init-basic.git",
+      "clone_url": "https://github.com/assemble/grunt-init-basic.git",
+      "url": "https://github.com/assemble/grunt-init-basic",
+      "download": "https://github.com/assemble/grunt-init-basic/archive/master.zip"
     },
     {
       "name": "grunt-init-ghpages",
+      "forks": 0,
+      "watchers": 1,
+      "fullname": "assemble/grunt-init-ghpages",
       "description": "Quickly build gh-pages documentation from a project README using Grunt.js and Assemble, a Node.js alternative to Jekyll.",
-      "url": "https://github.com/assemble/grunt-init-ghpages"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/grunt-init-ghpages.git",
+      "clone_url": "https://github.com/assemble/grunt-init-ghpages.git",
+      "url": "https://github.com/assemble/grunt-init-ghpages",
+      "download": "https://github.com/assemble/grunt-init-ghpages/archive/master.zip"
     },
     {
       "name": "grunt-init-helper",
+      "forks": 0,
+      "watchers": 1,
+      "fullname": "assemble/grunt-init-helper",
       "description": "Grunt init template for creating Assemble helpers.",
-      "url": "https://github.com/assemble/grunt-init-helper"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/grunt-init-helper.git",
+      "clone_url": "https://github.com/assemble/grunt-init-helper.git",
+      "url": "https://github.com/assemble/grunt-init-helper",
+      "download": "https://github.com/assemble/grunt-init-helper/archive/master.zip"
     },
     {
       "name": "grunt-matter",
+      "forks": 1,
+      "watchers": 3,
+      "fullname": "assemble/grunt-matter",
       "description": "Add, extend, sort, and strip YAML front matter. Also has options for populating randomized mock data.",
-      "url": "https://github.com/assemble/grunt-matter"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/grunt-matter.git",
+      "clone_url": "https://github.com/assemble/grunt-matter.git",
+      "url": "https://github.com/assemble/grunt-matter",
+      "download": "https://github.com/assemble/grunt-matter/archive/master.zip"
     },
     {
       "name": "grunt-metadata",
+      "forks": 0,
+      "watchers": 0,
+      "fullname": "assemble/grunt-metadata",
       "description": "",
-      "url": "https://github.com/assemble/grunt-metadata"
+      "language": null,
+      "git_url": "git://github.com/assemble/grunt-metadata.git",
+      "clone_url": "https://github.com/assemble/grunt-metadata.git",
+      "url": "https://github.com/assemble/grunt-metadata",
+      "download": "https://github.com/assemble/grunt-metadata/archive/master.zip"
     },
     {
       "name": "grunt-readme",
+      "forks": 3,
+      "watchers": 6,
+      "fullname": "assemble/grunt-readme",
       "description": "Generate your README from a template. Fast, very little config, and if you already use Grunt it's a no-brainer.",
-      "url": "https://github.com/assemble/grunt-readme"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/grunt-readme.git",
+      "clone_url": "https://github.com/assemble/grunt-readme.git",
+      "url": "https://github.com/assemble/grunt-readme",
+      "download": "https://github.com/assemble/grunt-readme/archive/master.zip"
     },
     {
       "name": "gruntjs.com",
+      "forks": 1,
+      "watchers": 0,
+      "fullname": "assemble/gruntjs.com",
       "description": "Grunt's Website",
-      "url": "https://github.com/assemble/gruntjs.com"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/gruntjs.com.git",
+      "clone_url": "https://github.com/assemble/gruntjs.com.git",
+      "url": "https://github.com/assemble/gruntjs.com",
+      "download": "https://github.com/assemble/gruntjs.com/archive/master.zip"
     },
     {
       "name": "handlebars-helpers",
+      "forks": 24,
+      "watchers": 262,
+      "fullname": "assemble/handlebars-helpers",
       "description": "Library of 120+ handlebars helpers for any project: Assemble, Ghost, YUI... This project is active and supported, we love contributors and appreciate stars.",
-      "url": "https://github.com/assemble/handlebars-helpers"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/handlebars-helpers.git",
+      "clone_url": "https://github.com/assemble/handlebars-helpers.git",
+      "url": "https://github.com/assemble/handlebars-helpers",
+      "download": "https://github.com/assemble/handlebars-helpers/archive/master.zip"
     },
     {
       "name": "handlebars-helpers-examples",
+      "forks": 0,
+      "watchers": 5,
+      "fullname": "assemble/handlebars-helpers-examples",
       "description": "Shows how to use helpers from helper-lib with Assemble.",
-      "url": "https://github.com/assemble/handlebars-helpers-examples"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/handlebars-helpers-examples.git",
+      "clone_url": "https://github.com/assemble/handlebars-helpers-examples.git",
+      "url": "https://github.com/assemble/handlebars-helpers-examples",
+      "download": "https://github.com/assemble/handlebars-helpers-examples/archive/master.zip"
     },
     {
       "name": "less-tests",
+      "forks": 2,
+      "watchers": 7,
+      "fullname": "assemble/less-tests",
       "description": "Test suite for LESS.js",
-      "url": "https://github.com/assemble/less-tests"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/less-tests.git",
+      "clone_url": "https://github.com/assemble/less-tests.git",
+      "url": "https://github.com/assemble/less-tests",
+      "download": "https://github.com/assemble/less-tests/archive/master.zip"
     },
     {
       "name": "lodash-mixins",
+      "forks": 0,
+      "watchers": 1,
+      "fullname": "assemble/lodash-mixins",
       "description": "Collection of mixins for Underscore or Lo-Dash. This project is active and supported, we love contributors and appreciate watchers.",
-      "url": "https://github.com/assemble/lodash-mixins"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/lodash-mixins.git",
+      "clone_url": "https://github.com/assemble/lodash-mixins.git",
+      "url": "https://github.com/assemble/lodash-mixins",
+      "download": "https://github.com/assemble/lodash-mixins/archive/master.zip"
     },
     {
       "name": "metadata",
+      "forks": 2,
+      "watchers": 2,
+      "fullname": "assemble/metadata",
       "description": "Utils for working with document metadata.",
-      "url": "https://github.com/assemble/metadata"
+      "language": null,
+      "git_url": "git://github.com/assemble/metadata.git",
+      "clone_url": "https://github.com/assemble/metadata.git",
+      "url": "https://github.com/assemble/metadata",
+      "download": "https://github.com/assemble/metadata/archive/master.zip"
     },
     {
       "name": "pagination",
+      "forks": 1,
+      "watchers": 3,
+      "fullname": "assemble/pagination",
       "description": "Nothing to see yet, this repo will eventually contain examples and boilerplate code for adding paging and pagination to your projects with Assemble.",
-      "url": "https://github.com/assemble/pagination"
+      "language": "CSS",
+      "git_url": "git://github.com/assemble/pagination.git",
+      "clone_url": "https://github.com/assemble/pagination.git",
+      "url": "https://github.com/assemble/pagination",
+      "download": "https://github.com/assemble/pagination/archive/master.zip"
     },
     {
       "name": "permalinks",
+      "forks": 6,
+      "watchers": 13,
+      "fullname": "assemble/permalinks",
       "description": "Permalinks plugin for Assemble, the static site generator for Grunt.js and Yeoman. This plugin enables powerful and configurable URI replacement patterns, presets, uses Moment.js for parsing dates, and much more.",
-      "url": "https://github.com/assemble/permalinks"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/permalinks.git",
+      "clone_url": "https://github.com/assemble/permalinks.git",
+      "url": "https://github.com/assemble/permalinks",
+      "download": "https://github.com/assemble/permalinks/archive/master.zip"
     },
     {
       "name": "plugins",
+      "forks": 0,
+      "watchers": 1,
+      "fullname": "assemble/plugins",
       "description": "Collection of plugins maintained by the Assemble core team.",
-      "url": "https://github.com/assemble/plugins"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/plugins.git",
+      "clone_url": "https://github.com/assemble/plugins.git",
+      "url": "https://github.com/assemble/plugins",
+      "download": "https://github.com/assemble/plugins/archive/master.zip"
     },
     {
       "name": "refactor-planning",
+      "forks": 1,
+      "watchers": 4,
+      "fullname": "assemble/refactor-planning",
       "description": "Temporary repo to plan the refactoring of Assemble. if you use Assemble and have opinions about this, please add your voice to the issues. ",
-      "url": "https://github.com/assemble/refactor-planning"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/refactor-planning.git",
+      "clone_url": "https://github.com/assemble/refactor-planning.git",
+      "url": "https://github.com/assemble/refactor-planning",
+      "download": "https://github.com/assemble/refactor-planning/archive/master.zip"
     },
     {
       "name": "swig-extensions",
+      "forks": 0,
+      "watchers": 1,
+      "fullname": "assemble/swig-extensions",
       "description": "A growing collection of tags and filters for Swig Templates.",
-      "url": "https://github.com/assemble/swig-extensions"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/swig-extensions.git",
+      "clone_url": "https://github.com/assemble/swig-extensions.git",
+      "url": "https://github.com/assemble/swig-extensions",
+      "download": "https://github.com/assemble/swig-extensions/archive/master.zip"
     },
     {
       "name": "task-manifest",
+      "forks": 0,
+      "watchers": 1,
+      "fullname": "assemble/task-manifest",
       "description": "Task Manifests are a convention for defining paths for files to be consumed by a build process. More to come...",
-      "url": "https://github.com/assemble/task-manifest"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/task-manifest.git",
+      "clone_url": "https://github.com/assemble/task-manifest.git",
+      "url": "https://github.com/assemble/task-manifest",
+      "download": "https://github.com/assemble/task-manifest/archive/master.zip"
     },
     {
       "name": "tasks",
+      "forks": 0,
+      "watchers": 1,
+      "fullname": "assemble/tasks",
       "description": "Collection of Grunt plugins maintained by the Assemble core team.",
-      "url": "https://github.com/assemble/tasks"
+      "language": "JavaScript",
+      "git_url": "git://github.com/assemble/tasks.git",
+      "clone_url": "https://github.com/assemble/tasks.git",
+      "url": "https://github.com/assemble/tasks",
+      "download": "https://github.com/assemble/tasks/archive/master.zip"
     }
   ]
 }
