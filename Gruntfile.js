@@ -33,23 +33,14 @@ module.exports = function(grunt) {
       options: {
         include: ['devDependencies']
       }
-    },
-
-    /**
-     * Extend context for templates
-     * with repos.json
-     */
-    readme: {
-      options: {
-        metadata: ['<%= repos.assemble.dest %>']
-      }
     }
+
   });
 
   // These plugins provide necessary tasks.
-  grunt.loadNpmTasks('grunt-readme');
+  grunt.loadNpmTasks('grunt-verb');
   grunt.loadNpmTasks('grunt-sync-pkg');
 
   // Default task.
-  grunt.registerTask('default', ['readme', 'sync']);
+  grunt.registerTask('default', ['verb', 'sync']);
 };
