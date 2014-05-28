@@ -5,7 +5,7 @@
 This repo is based on [grunt-contrib](https://github.com/gruntjs/grunt-contrib/).
 
 ## Overview
-This collection contains all of the boilerplates maintained by the Assemble core team. This list is made available as a convenience for first-time users who would like to explore what Assemble has to offer. After review, it is recommended that install the boilerplates you wish to use individually.
+This collection contains all of the boilerplates maintained by the Assemble core team. This list is made available as a convenience for first-time users who would like to explore what Assemble has to offer. After review, it is recommended that you install the boilerplates you wish to use individually.
 
 ## Boilerplates
                
